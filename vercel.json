@@ -8,11 +8,11 @@
     "routes": [
         {
             "src": "/",
-            "dest": "/api/koneksi.php"
-        },
-        {
-            "src": "/",
             "dest": "/api/index.php"
+        },
+          {
+            "src": "/",
+            "dest": "/api/koneksi.php"
         },
         {
             "src": "/kelola_nilai",
