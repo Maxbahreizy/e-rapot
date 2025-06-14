@@ -1,0 +1,13 @@
+/node_modules
+/vendor
+/.env
+/composer.lock
+/composer.json
+/storage
+/cache
+/tests
+.env.example
+.env.development
+.env.production
+/public/build
+/public/hot
