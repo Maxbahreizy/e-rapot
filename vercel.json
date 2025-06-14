@@ -1,0 +1,53 @@
+{
+    "version": 2,
+    "functions": {
+        "api/*.php": {
+            "runtime": "vercel-php@0.7.3"
+        }
+    },
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/api/index.php"
+        },
+        {
+            "src": "/kelola_nilai",
+            "dest": "/api/kelola_nilai.php"
+        },
+        {
+            "src": "/guru_dashboard",
+            "dest": "/api/guru_dashboard.php"
+        },
+        {
+            "src": "/admin_dashboard",
+            "dest": "/api/admin_dashboard.php"
+        },
+        {
+            "src": "/siswa_dashboard",
+            "dest": "/api/siswa_dashboard.php"
+        },
+        {
+            "src": "/logout",
+            "dest": "/api/logout.php"
+        },
+        {
+            "src": "/kelola_pengguna",
+            "dest": "/api/kelola_pengguna.php"
+        },
+        {
+            "src": "/lihat_nilai",
+            "dest": "/api/lihat_nilai.php"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ],
+    "env": {
+        "DB_HOST": "jitbo.h.filess.io",
+        "DB_PORT": "3307",
+        "DB_USERNAME": "2027_songpastof",
+        "DB_PASSWORD": "479728b0686e1f7decdbf5e9a04644e900e26411",
+        "DB_NAME": "2027_songpastof"
+    }
+}
